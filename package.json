@@ -1,0 +1,31 @@
+{
+  "name": "iron",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "less": "webpack --config webpack.config.js -w"
+  },
+  "dependencies": {
+    "react": "16.3.0-alpha.0",
+    "react-native": "0.55.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-shadow": "^1.2.2",
+    "react-native-svg": "^6.5.2",
+    "react-native-vector-icons": "4",
+    "react-navigation": "^2.12.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.5.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "react-native-style-loader": "^0.0.11",
+    "react-test-renderer": "16.3.0-alpha.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
